@@ -1,0 +1,14 @@
+{
+  "name": "PuzzleBox.Runtime",
+  "rootNamespace": "PuzzleBox",
+  "references": ["Unity.RenderPipelines.Universal.Runtime", "UnityEngine.UI"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

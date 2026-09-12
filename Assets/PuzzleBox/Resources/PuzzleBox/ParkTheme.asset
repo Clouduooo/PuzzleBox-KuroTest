@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a811d6aa4d457e45857bff0c75df250, type: 3}
+  m_Name: ParkTheme
+  m_EditorClassIdentifier: 
+  groundTile: {fileID: 3004042824885570895, guid: 8dc5bcaa42cce3f488ce40ae9040aac4,
+    type: 3}
+  platformTile: {fileID: 2426562510203617218, guid: d11675091cbef3841abb702103b62cd4,
+    type: 3}
+  box: {fileID: 153032140905222340, guid: 8612fd7510dae2646a352c39e9507f35, type: 3}
+  player: {fileID: 2291384749183370734, guid: 1e61708ab58db3d4998a918df0b93430, type: 3}
+  target: {fileID: 7855695144328066949, guid: dc9dc1c5add94f744b744c74f58011e1, type: 3}
+  stair: {fileID: 3933051544047207117, guid: 1baf0a1963046004795f214e5aa197c9, type: 3}
+  hedge: {fileID: 3952089424996326982, guid: fb0db8f39524f1a4d8b87cddc883dafa, type: 3}
+  bush: {fileID: 6200400296814392549, guid: 0925e4ca8111cf64f9ea1e491b6a0f6f, type: 3}
+  flowers: {fileID: 7319012844250112148, guid: bece5124b80f3aa4899bb9a7564ed0e8, type: 3}
+  rock: {fileID: 6094159057145780629, guid: 6c22ce9a213019742a90a0b3593f9cf5, type: 3}
+  bench: {fileID: 5452461380104256548, guid: 0682d786d78e7ab47a4a51faad3c78b9, type: 3}
+  lamp: {fileID: 6222002587790549772, guid: c99df080ed831bc4cbb35d8f0c2ae1b8, type: 3}
+  grassTuft: {fileID: 1386677941257613352, guid: 10ec5bb81e3e3f54c844976538ef9465,
+    type: 3}
+  meadowMaterial: {fileID: 2100000, guid: e3d7c712394b3d545b44581ab4138e40, type: 2}
+  hopEffectMaterial: {fileID: 2100000, guid: fcbeb7e2d46f4e34693bb650957e1e25, type: 2}
+  pushEffectMaterial: {fileID: 2100000, guid: 9e81cacb1ddfe904c901c649a18055ef, type: 2}
+  background: {r: 0.5647059, g: 0.7254902, b: 0.5137255, a: 1}
+  cameraAngles: {x: 35.26439, y: 45, z: 0}
+  sunAngles: {x: 40, y: -32, z: 0}
+  framing: 1.05

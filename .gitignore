@@ -1,0 +1,64 @@
+# Unity caches and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Builds and exported packages
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Generated IDE projects and local settings
+/.vs/
+/.idea/
+/.vscode/
+/.vsconfig
+/.gradle/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.unityproj
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Editor plugins that regenerate local files
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Unity crash and diagnostic output
+sysinfo.txt
+crashlytics-build.properties
+*.log
+
+# Local environment and assistant settings
+# Backup of the previous repository history
+/.git-history-backup/
+.env
+.env.*
+!.env.example
+/.agents/
+/.codex/
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini

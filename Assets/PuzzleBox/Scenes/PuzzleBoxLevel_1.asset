@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9b32a222d5d67479e6def9a2c65ab0, type: 3}
+  m_Name: PuzzleBoxLevel_1
+  m_EditorClassIdentifier: 
+  levelId: 5775262460124df5ba110a093ee6bd9d
+  displayName: PuzzleBoxLevel_1
+  designNotes: 
+  dataVersion: 2
+  size: {x: 16, y: 7, z: 16}
+  cellSize: 1
+  artTheme: {fileID: 0}
+  solids:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  - {x: 0, y: 0, z: 2}
+  - {x: 0, y: 0, z: 3}
+  - {x: 2, y: 1, z: 5}
+  - {x: 2, y: 1, z: 6}
+  - {x: 2, y: 1, z: 7}
+  - {x: 2, y: 1, z: 4}
+  - {x: 4, y: 2, z: 3}
+  - {x: 5, y: 2, z: 3}
+  - {x: 6, y: 2, z: 3}
+  - {x: 7, y: 2, z: 3}
+  - {x: 6, y: 3, z: 1}
+  - {x: 7, y: 3, z: 1}
+  - {x: 8, y: 3, z: 1}
+  - {x: 9, y: 3, z: 1}
+  - {x: 8, y: 4, z: 3}
+  - {x: 8, y: 4, z: 4}
+  - {x: 8, y: 4, z: 5}
+  - {x: 8, y: 4, z: 6}
+  - {x: 11, y: 0, z: 2}
+  - {x: 11, y: 0, z: 3}
+  - {x: 11, y: 0, z: 4}
+  - {x: 11, y: 0, z: 5}
+  - {x: 13, y: 1, z: 3}
+  - {x: 13, y: 1, z: 4}
+  - {x: 13, y: 1, z: 5}
+  - {x: 13, y: 1, z: 6}
+  - {x: 13, y: 1, z: 7}
+  - {x: 12, y: 1, z: 7}
+  - {x: 10, y: 1, z: 2}
+  - {x: 10, y: 2, z: 4}
+  - {x: 10, y: 2, z: 5}
+  - {x: 9, y: 1, z: 2}
+  targets:
+  - {x: 11, y: 1, z: 2}
+  - {x: 13, y: 2, z: 3}
+  boxes:
+  - {x: 9, y: 4, z: 1}
+  - {x: 9, y: 5, z: 1}
+  stairs: []
+  perspectiveLinks:
+  - cellA: {x: 0, y: 1, z: 3}
+    cellB: {x: 2, y: 2, z: 4}
+    directionFromA: 1
+    viewMask: 4
+  - cellA: {x: 2, y: 2, z: 4}
+    cellB: {x: 4, y: 3, z: 3}
+    directionFromA: 1
+    viewMask: 8
+  - cellA: {x: 6, y: 4, z: 1}
+    cellB: {x: 7, y: 3, z: 3}
+    directionFromA: 0
+    viewMask: 1
+  - cellA: {x: 9, y: 4, z: 1}
+    cellB: {x: 8, y: 5, z: 3}
+    directionFromA: 0
+    viewMask: 2
+  - cellA: {x: 7, y: 4, z: 1}
+    cellB: {x: 8, y: 5, z: 3}
+    directionFromA: 0
+    viewMask: 4
+  - cellA: {x: 6, y: 4, z: 1}
+    cellB: {x: 5, y: 3, z: 3}
+    directionFromA: 0
+    viewMask: 8
+  - cellA: {x: 7, y: 4, z: 1}
+    cellB: {x: 6, y: 3, z: 3}
+    directionFromA: 0
+    viewMask: 8
+  - cellA: {x: 8, y: 4, z: 1}
+    cellB: {x: 7, y: 3, z: 3}
+    directionFromA: 0
+    viewMask: 8
+  - cellA: {x: 8, y: 5, z: 4}
+    cellB: {x: 12, y: 2, z: 7}
+    directionFromA: 1
+    viewMask: 1
+  - cellA: {x: 11, y: 1, z: 5}
+    cellB: {x: 12, y: 2, z: 7}
+    directionFromA: 0
+    viewMask: 4
+  - cellA: {x: 11, y: 1, z: 2}
+    cellB: {x: 13, y: 2, z: 3}
+    directionFromA: 1
+    viewMask: 4
+  - cellA: {x: 11, y: 1, z: 3}
+    cellB: {x: 13, y: 2, z: 4}
+    directionFromA: 1
+    viewMask: 4
+  - cellA: {x: 11, y: 1, z: 4}
+    cellB: {x: 13, y: 2, z: 5}
+    directionFromA: 1
+    viewMask: 4
+  - cellA: {x: 11, y: 1, z: 5}
+    cellB: {x: 13, y: 2, z: 6}
+    directionFromA: 1
+    viewMask: 4
+  - cellA: {x: 11, y: 1, z: 4}
+    cellB: {x: 13, y: 2, z: 3}
+    directionFromA: 1
+    viewMask: 8
+  - cellA: {x: 11, y: 1, z: 5}
+    cellB: {x: 13, y: 2, z: 4}
+    directionFromA: 1
+    viewMask: 8
+  - cellA: {x: 7, y: 3, z: 3}
+    cellB: {x: 9, y: 2, z: 2}
+    directionFromA: 1
+    viewMask: 2
+  - cellA: {x: 9, y: 2, z: 2}
+    cellB: {x: 10, y: 3, z: 4}
+    directionFromA: 0
+    viewMask: 4
+  initialViewQuarter: 0
+  hasPlayerSpawn: 1
+  playerSpawn: {x: 0, y: 1, z: 0}
